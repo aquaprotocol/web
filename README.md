@@ -45,7 +45,7 @@ Flow:
 3. Response with transaction hash is recorded
 4. Request to Kovan Etherscan API is run to optained transaction status.
 
-#### Invest Art, Paper and Insurance
+#### Invest [Art](https://github.com/aquaprotocol/web/blob/main/src/main/invest/module/Art.js), [Paper](https://github.com/aquaprotocol/web/blob/main/src/main/invest/module/Papers.js) and [Insurance](https://github.com/aquaprotocol/web/blob/main/src/main/invest/module/Insurance.js)
 
 The AquaProtocol give possibility to invest in Art, buy Stock Market Paper and Insurance
 
