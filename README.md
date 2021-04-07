@@ -84,4 +84,6 @@ Flow:
 3. The Response with the transaction hash is recorded
 4. The Request to the Kovan Etherscan API is run to obtain transaction status.
 
-
+#### To run
+`npm install`
+`npm start`
