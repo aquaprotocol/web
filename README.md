@@ -20,24 +20,24 @@ If select F then fiat deposition will be executed, C is for crypto/stable coin.
 Request object deposit:
 
 ```javascript
-        const invokeDeposition = {
-            depType: this.state.depType, //F or C
-            accountNumberFrom: this.state.accountNumberFrom, //Sender bank account address / Sender ethereum account address
-            accountNumberTo: this.state.accountNumberTo, //Optional for fast transfer
-            amount: this.state.amount, // price
-            ethAccount: this.state.ethAccount // asset account address where money should be deposited
-        }
+        const invokeDeposition = {
+            depType: this.state.depType, //F or C
+            accountNumberFrom: this.state.accountNumberFrom, //Sender bank account address / Sender ethereum account address
+            accountNumberTo: this.state.accountNumberTo, //Optional for fast transfer
+            amount: this.state.amount, // price
+            ethAccount: this.state.ethAccount // asset account address where money should be deposited
+        }
 ```
 
 Request object withdraw:
 ```javascript
-        const invokeWithdraw = {
-            depType: this.state.depType,
-            accountNumberFrom: this.state.accountNumberFrom,
-            accountNumberTo: this.state.accountNumberTo,
-            amount: this.state.amount,
-            ethAccount: this.state.ethAccount
-        }
+        const invokeWithdraw = {
+            depType: this.state.depType,
+            accountNumberFrom: this.state.accountNumberFrom,
+            accountNumberTo: this.state.accountNumberTo,
+            amount: this.state.amount,
+            ethAccount: this.state.ethAccount
+        }
 ```
 Response:
 Transaction hash
@@ -50,7 +50,7 @@ Flow:
 
 #### Invest [Art](https://github.com/aquaprotocol/web/blob/main/src/main/invest/module/Art.js), [Paper](https://github.com/aquaprotocol/web/blob/main/src/main/invest/module/Papers.js) and [Insurance](https://github.com/aquaprotocol/web/blob/main/src/main/invest/module/Insurance.js)
 
-The AquaProtocol give possibility to invest in Art, buy Stock Market Paper and Insurance
+The AquaProtocol give the possibility to invest in Art, buy Stock Market Paper and Insurance
 
 * Art
 
@@ -78,7 +78,7 @@ The AquaProtocol give possibility to invest in Art, buy Stock Market Paper and I
 }
 ```
 
-Flow is similar to flow from deposit/withdraw step
+Flow is similar to flow from the deposit/withdraw step
 
 Flow:
 
